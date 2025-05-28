@@ -27,6 +27,21 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import github from './github.png';
+import js from './js.png'
+import java from './java.png'
+import python from './python.png'
+import c from './c.png'
+import cplus from './cplus.png'
+import csharp from './csharp.png'
+import html from './html.png'
+import aws from './aws.png'
+import sql from './sql.png'
+import linux from './linux.png'
+import windows from './windows.png'
+import photo from './photo.png'
+import excel from './excel.png'
+import word from './word.png'
+import powerpoint from './powerpoint.png'
 
 export const assets = {
     user_image,
@@ -53,12 +68,26 @@ export const assets = {
     menu_white,
     close_black,
     close_white,
-
     right_arrow,
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
     github,
+    js,
+    java,
+    python,
+    c,
+    cplus,
+    csharp,
+    html,
+    aws,
+    sql,
+    linux,
+    windows,
+    photo,
+    excel,
+    word,
+    powerpoint,
 };
 
 export const workData = [
@@ -84,17 +113,39 @@ export const workData = [
     },
 ]
 
-export const serviceData = [
-    { icon: assets.vscode, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.vscode, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.vscode, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.vscode, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+export const skillData = [
+    { section: 'Languages', items: [
+        { icon: assets.java, title: 'Java' },
+        { icon: assets.python, title: 'Python' },
+        { icon: assets.c, title: 'C' },
+        { icon: assets.cplus, title: 'C++' },
+        { icon: assets.csharp, title: 'C#' },
+        { icon: assets.html, title: 'HTML/CSS' },
+        { icon: assets.js, title: 'JavaScript' },
+        { icon: assets.vscode, title: 'Assembly' },
+    ]},
+
+    { section: 'IT Tools', items: [
+        { icon: assets.aws, title: 'AWS' },
+        { icon: assets.sql, title: 'MySQL' },
+        { icon: assets.github, title: 'Github' },
+        { icon: assets.linux, title: 'Linux/Unix' },
+        { icon: assets.windows, title: 'Windows' },
+    ]},
+
+    { section: 'Content Production', items: [
+        { icon: assets.photo, title: 'Photoshop' },
+        { icon: assets.excel, title: 'Microsoft Excel' },
+        { icon: assets.word, title: 'Microsoft Word' },
+        { icon: assets.powerpoint, title: 'PowerPoint' },
+    ]},
 ]
 
+
 export const infoList = [
-    { icon: assets.code_icon_dark, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon_dark, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon_dark, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon_dark, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Java, Python, C, C++, HTML, CSS, Javascript, Assembly, HTML, CSS, React Js, Next Js' },
+    { icon: assets.edu_icon_dark, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.S in Computer Science' },
+    { icon: assets.project_icon_dark, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Patrol Vehicle Alert System\nE‑Commerce Platform\n and more below!' }
 ];
 
 export const toolsData = [
