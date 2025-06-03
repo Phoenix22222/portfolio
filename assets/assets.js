@@ -91,27 +91,48 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/LorumIpsumTemplate.png',
-    },
-    {
-        title: 'App for Phone',
-        description: 'Mobile App',
-        bgImage: '/LorumIpsumTemplate.png',
-    },
-    {
-        title: 'Portfolio site',
-        description: 'Web Design',
-        bgImage: '/LorumIpsumTemplate.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/LorumIpsumTemplate.png',
-    },
-]
+  {
+    title: 'Marketplace Platform (NDA)',
+    description: 'Full‑Stack Design',
+    bgImage: '/MarketPlace.jpg',
+    longDescription: [
+      'As a full‑stack developer, I am spearheading the end‑to‑end build of a two‑sided web and mobile marketplace that connects e‑commerce sellers with Amazon fulfillment specialists. The project demands careful alignment of business logic and user flows so that both parties can create accounts, list services, and initiate engagements with minimal friction.',
+      'On the back end I am assembling a serverless micro‑services architecture on AWS—principally Lambda functions fronted by API Gateway and persisting data in DynamoDB—so the platform scales elastically without ops overhead. The cross‑platform React Native and Next.js front‑ends feature real‑time WebSocket chat, role‑based dashboards, and secure Stripe billing, all delivered through a CI/CD pipeline I configured for zero‑downtime releases.'
+    ],
+    gallery: ['/upwork.png', '/fiverr.png']
+  },
+  {
+    title: 'AI Doc Converter (NDA)',
+    description: 'Mobile App / Website',
+    bgImage: '/aitopng.png',
+    longDescription: [
+      'For another confidential client I am leading the development of a proprietary web application that uses AI and computer‑vision pipelines to convert unstructured images and PDFs into structured, company‑standard data formats, enabling secure inter‑company communication from any device.',
+      'The application is backed by a Python/Flask API layer and PostgreSQL datastore that orchestrate OCR extraction and GPT‑powered data‑normalization models. A responsive React dashboard lets users upload documents over TLS, watch real‑time processing status, and export clean CSV or JSON in seconds—eliminating hours of manual data entry while enforcing enterprise‑grade RBAC.'
+    ],
+    gallery: ['/lens.png', '/googlelens.gif']
+  },
+  {
+    title: 'Patrol Vehicle Alert System',
+    description: 'Software Design',
+    bgImage: '/Patrol.png',
+    longDescription: [
+      'As my senior capstone I partnered with the Polk County Sheriff’s Office to engineer an edge‑AI safety suite that runs entirely on in‑vehicle hardware and detects gunshots, dangerous objects, and license plates in real time. The project combined computer vision, DSP, and embedded systems under strict performance and reliability constraints.',
+      'Working within a seven‑person Agile team, I produced system‑architecture diagrams, managed sprint planning with stakeholders, and designed the DSP pipeline: a YOLOv8‑based model accelerated by CUDA that achieved 95 % precision and 92 % recall in live‑fire field tests, triggering officer alerts in under two seconds.'
+    ],
+    gallery: [{ src: '/lpr.png', fit: 'contain' }, '/googlelens.gif']
+  },
+  {
+    title: 'Portfolio Webpage',
+    description: 'Front‑End Design',
+    bgImage: '/Portfolio.png',
+    longDescription: [
+      'I built my personal portfolio to showcase recent work using React 18, the new Next.js 14 App Router, and Tailwind CSS for utility‑first styling. All pages are statically generated and deployed to Vercel edge functions, which keeps Lighthouse performance scores between 99 and 100.',
+      'Project data is loaded from a single JSON file so updates require no code changes, while framer‑motion drives smooth page transitions and the UI adapts to dark/light themes on any viewport. The entire site ships less than 200 kB of JavaScript, highlighting my focus on performance and accessible UX.'
+    ],
+    gallery: []
+  }
+];
+
 
 export const skillData = [
     { section: 'Languages', items: [
