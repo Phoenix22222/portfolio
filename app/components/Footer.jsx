@@ -10,7 +10,7 @@ const Footer = () => {
 
         <div className='w-max flex items-center gap-2 mx-auto'>
             <Image src={assets.mail_icon} alt='' className='w-6'/>
-            jakemeetre@gmail.com
+            meetre.jake@gmail.com
         </div>
       </div>
 
@@ -19,7 +19,6 @@ const Footer = () => {
             <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                 <li><a target='_blank' href='https://github.com/Phoenix22222'>Github</a></li>
                 <li><a target='_blank' href='https://github.com/Phoenix22222'>LinkedIn</a></li>
-                <li><a target='_blank' href='https://github.com/Phoenix22222'>Twitter</a></li>
             </ul>
         </div>
 

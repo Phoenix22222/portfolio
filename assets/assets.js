@@ -96,8 +96,9 @@ export const workData = [
     description: 'Full‑Stack Design',
     bgImage: '/MarketPlace.jpg',
     longDescription: [
-      'As a full‑stack developer, I am spearheading the end‑to‑end build of a two‑sided web and mobile marketplace that connects e‑commerce sellers with Amazon fulfillment specialists. The project demands careful alignment of business logic and user flows so that both parties can create accounts, list services, and initiate engagements with minimal friction.',
-      'On the back end I am assembling a serverless micro‑services architecture on AWS—principally Lambda functions fronted by API Gateway and persisting data in DynamoDB—so the platform scales elastically without ops overhead. The cross‑platform React Native and Next.js front‑ends feature real‑time WebSocket chat, role‑based dashboards, and secure Stripe billing, all delivered through a CI/CD pipeline I configured for zero‑downtime releases.'
+      `This marketplace is an under-development, NDA-protected platform that functions like Upwork, but is purpose-built for the e-commerce domain. Its mission is to let small and mid‑sized brands instantly hire vetted Amazon specialists, photographers, and listing optimizers, through an intuitive web and mobile interface. By matching merchants with fulfillment talent, the product removes the technical and logistical hurdles that frequently block Main‑Street retailers from expanding onto Amazon, Walmart Marketplace, and other high‑volume channels.`,
+
+      `On the engineering side, I own the entire stack. A serverless mesh of AWS Lambda functions behind API Gateway. The React Native mobile app and Next.js web client share a design‑system component library and stream real‑time chat over WebSockets. CI/CD pipelines in GitHub Actions push updates so that new features land with zero downtime and no vendor lock‑in.`
     ],
     gallery: ['/upwork.png', '/fiverr.png']
   },
@@ -106,8 +107,9 @@ export const workData = [
     description: 'Mobile App / Website',
     bgImage: '/aitopng.png',
     longDescription: [
-      'For another confidential client I am leading the development of a proprietary web application that uses AI and computer‑vision pipelines to convert unstructured images and PDFs into structured, company‑standard data formats, enabling secure inter‑company communication from any device.',
-      'The application is backed by a Python/Flask API layer and PostgreSQL datastore that orchestrate OCR extraction and GPT‑powered data‑normalization models. A responsive React dashboard lets users upload documents over TLS, watch real‑time processing status, and export clean CSV or JSON in seconds—eliminating hours of manual data entry while enforcing enterprise‑grade RBAC.'
+      `Still in active development project, re‑imagines tools such as Google Lens or Microsoft Lens for the compliance‑minded enterprise. Users snap a picture of an internal document and the application securely converts that unstructured image or PDF into a clean, standards‑driven data package complete with field validation. All processing happens inside the customer’s own cloud account, ensuring that sensitive information never leaves their security boundary.`,
+
+      `The back‑end is a containerized Python / Flask service running on ECS Fargate, wired to PostgreSQQ. A computer‑vision pipeline (OpenCV + Tesseract) extracts primitives, which are then normalized by GPT‑4o function‑calling agents that map content to the client’s schema. Each document flows through an immutable queue, emitting real‑time status to a React dashboard over Server‑Sent Events. At completion, the user can download strongly‑typed CSV, JSON, or an encrypted ZIP/PDF.`
     ],
     gallery: ['/lens.png', '/googlelens.gif']
   },
@@ -116,20 +118,20 @@ export const workData = [
     description: 'Software Design',
     bgImage: '/Patrol.png',
     longDescription: [
-      'As my senior capstone I partnered with the Polk County Sheriff’s Office to engineer an edge‑AI safety suite that runs entirely on in‑vehicle hardware and detects gunshots, dangerous objects, and license plates in real time. The project combined computer vision, DSP, and embedded systems under strict performance and reliability constraints.',
-      'Working within a seven‑person Agile team, I produced system‑architecture diagrams, managed sprint planning with stakeholders, and designed the DSP pipeline: a YOLOv8‑based model accelerated by CUDA that achieved 95 % precision and 92 % recall in live‑fire field tests, triggering officer alerts in under two seconds.'
+      `The Patrol Vehicle Alert System (PVAS) is an edge‑AI safety suite created in partnership with the Polk County Sheriff’s Office. Mounted entirely inside a patrol vehicle, PVAS has three subsystems, license‑plate recognition (LPR), advancing‑object detection (AOD), and gunshot detection (GDS), to elevate a deputy’s situational awareness without adding cognitive load. All computing runs on an in‑vehicle Ubuntu server, so no video or audio leaves the car, in strict compliance with PCSO privacy directives.`,
+
+      `My primary focus was the GDS module. I curated field recordings, generated Mel‑spectrograms, and trained a YOLO‑based classifier that distinguishes gunfire from fireworks, construction noise, or exhaust backfire with 95 % precision and 92 % recall. The pipeline slices audio into two‑second windows, filters events by loudness, and then forwards high‑confidence detections to the alert broker with sub‑two‑second latency. In parallel, the LPR subsystem employs PaddleOCR to read plates that the AOD camera tracker has already identified, while AOD itself leverages a custom‑trained YOLOv11 model to flag oncoming vehicles, weapons, and collision threats. Together, the trio of models delivers an integrated, low‑cost alternative to six‑figure commercial systems such as ShotSpotter.`
     ],
-    gallery: [{ src: '/lpr.png', fit: 'contain' }, '/googlelens.gif']
+    gallery: [{ src: '/lpr.png', fit: 'contain' }, { src: '/AOD.png', fit: 'contain' }, { src: '/GDS.png', fit: 'contain' }]
   },
   {
     title: 'Portfolio Webpage',
     description: 'Front‑End Design',
     bgImage: '/Portfolio.png',
     longDescription: [
-      'I built my personal portfolio to showcase recent work using React 18, the new Next.js 14 App Router, and Tailwind CSS for utility‑first styling. All pages are statically generated and deployed to Vercel edge functions, which keeps Lighthouse performance scores between 99 and 100.',
-      'Project data is loaded from a single JSON file so updates require no code changes, while framer‑motion drives smooth page transitions and the UI adapts to dark/light themes on any viewport. The entire site ships less than 200 kB of JavaScript, highlighting my focus on performance and accessible UX.'
+      `I designed and coded this portfolio from the ground up because I wanted a playground where I could practice modern front‑end patterns rather than rely on a cookie‑cutter template. The site is written in React 18 on the Next.js 14 App Router and styled with Tailwind CSS utility classes for speed and composability. The goal is to display information about myself and my works to potential employers and interests.`
     ],
-    gallery: []
+    gallery: [{ src: '/Webpage.png', fit: 'contain' }]
   }
 ];
 

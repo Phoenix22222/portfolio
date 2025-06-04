@@ -1,4 +1,3 @@
-// Here is where you import fonts
 import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
 

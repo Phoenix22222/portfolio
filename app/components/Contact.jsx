@@ -34,7 +34,7 @@ const Contact = () => {
         <h2 className='text-center text-5xl font-ovo'>Get in touch</h2>
 
         <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>
-            Commodo quis officia et sunt qui voluptate nostrud enim labore officia eiusmod cillum qui enim.
+            I'd love to hear more from you! Lets talk!
         </p>
 
         <form onSubmit={onSubmit} className='max-w-2x1 mx-auto text-black'>
