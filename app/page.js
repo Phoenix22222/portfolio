@@ -21,7 +21,6 @@ export default function Home () {
       <Work />
       <Contact />
       <Footer />
-      <ResumeButton />
     </>
   )
 }
