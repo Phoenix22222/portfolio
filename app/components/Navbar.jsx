@@ -27,7 +27,7 @@ const Navbar = () => {
     return (
         <>
             <nav className={`bg-[#161614] w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between 
-        z-50 ${isScroll ? "bg-black/20 backdrop-blur-lg shadow-sm" : ""}`}>
+        z-60 ${isScroll ? "bg-black/20 backdrop-blur-lg shadow-sm" : ""}`}>
                 <a href="#top">
                     <Image src={assets.logo_dark} alt="Logo" className='w-38 alt="" cursor-pointer mr-14' />
                 </a>

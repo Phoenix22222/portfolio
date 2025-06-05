@@ -94,7 +94,7 @@ export const workData = [
   {
     title: 'Marketplace Platform (NDA)',
     description: 'Full‑Stack Design',
-    bgImage: '/MarketPlace.jpg',
+    bgImage: '/MarketPlace.png',
     longDescription: [
       `This marketplace is an under-development, NDA-protected platform that functions like Upwork, but is purpose-built for the e-commerce domain. Its mission is to let small and mid‑sized brands instantly hire vetted Amazon specialists, photographers, and listing optimizers, through an intuitive web and mobile interface. By matching merchants with fulfillment talent, the product removes the technical and logistical hurdles that frequently block Main‑Street retailers from expanding onto Amazon, Walmart Marketplace, and other high‑volume channels.`,
 

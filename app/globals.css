@@ -2,7 +2,6 @@
 @import "tailwindcss";
 
 @theme {
-  /* prefix your variable with --color- to get bg-*, text-*, etc. */
   --color-light-hover: #fcf4ff;
   --color-dark-hover: #2a004a;
   --color-dark-theme: #11001F;

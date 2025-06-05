@@ -18,7 +18,7 @@ export default function ResumeButton() {
       </button>
 
       {showViewer && (
-        <div className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-60 bg-black/70 flex items-center justify-center p-4">
           <div className="bg-white max-w-4xl w-full h-[90%] rounded-lg shadow-xl overflow-hidden flex flex-col">
             <div className="flex justify-between items-center px-4 py-2 bg-[#1e1e1e] text-gray-200 border-b border-gray-700">
               <span className="text-sm font-medium">JakeMResume2025Freelance.pdf</span>
