@@ -80,7 +80,7 @@ const Work = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.95 }}
                 transition={{ type: 'spring', stiffness: 120, damping: 15 }}
-                className="bg-[#1e1e1d] text-white w-[90vw] h-[90vh] max-w-6xl rounded-2xl shadow-xl overflow-hidden flex flex-col"
+                className="bg-[#1e1e1d] text-white w-[90vw] h-[83vh] max-w-6xl rounded-2xl shadow-xl overflow-hidden flex flex-col"
                 onClick={(e) => e.stopPropagation()}
               >
                 <div className="flex items-center justify-between p-6 bg-[#161614]">
