@@ -43,7 +43,7 @@ export default function VantaBg () {
       <div ref={vantaRef} className="fixed inset-0 -z-50" />
       <div
         className={`
-          fixed inset-0 -z-40 pointer-events-none
+          fixed inset-0 -z-5 pointer-events-none
           transition-opacity duration-1000
           ${isBlurred ? 'opacity-100' : 'opacity-0'}
           backdrop-blur-sm bg-black/30
