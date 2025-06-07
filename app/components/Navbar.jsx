@@ -34,10 +34,10 @@ const Navbar = () => {
 
                 <ul className={`text-white bg-[#22211f] hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-[#22211f]/30 shadow-sm"}`}>
                     <li><a className='font-ovo' href="#top">Home</a></li>
-                    <li><a className='font-ovo' href="#about">About me</a></li>
+                    <li><a className='font-ovo' href="#about">About Me</a></li>
                     <li><a className='font-ovo' href="#Skills">My Skills</a></li>
                     <li><a className='font-ovo' href="#work">Latest Work</a></li>
-                    <li><a className='font-ovo' href="#contact">Contact me</a></li>
+                    <li><a className='font-ovo' href="#contact">Contact Me</a></li>
                 </ul>
 
                 <div className='flex items-center gap-4'>
